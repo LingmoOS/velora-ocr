@@ -1,0 +1,178 @@
+deepin-ocr (6.5.16) unstable; urgency=medium
+
+  * chore: Update compiler flags for security enhancements
+  * fix: Fix sw64 gcc not support pie by default
+
+ -- wangrong <wangrong@uniontech.com>  Thu, 22 Jan 2026 19:29:37 +0800
+
+deepin-ocr (6.5.15) unstable; urgency=medium
+
+  * fix: Hide language selector when using OCR V5 plugin 
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Fri, 05 Dec 2025 10:42:27 +0800
+
+deepin-ocr (6.5.14) unstable; urgency=medium
+
+  * merge release/eagle to master 
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Tue, 02 Dec 2025 14:27:14 +0800
+
+deepin-ocr (6.5.13) unstable; urgency=medium
+
+  * chore: Update compiler flags for security enhancements
+
+ -- wangrong <wangrong@uniontech.com>  Thu, 27 Nov 2025 19:26:01 +0800
+
+deepin-ocr (6.5.12) unstable; urgency=medium
+
+  * Add the OCR V5 plugin.
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Thu, 30 Oct 2025 18:42:34 +0800
+
+deepin-ocr (6.5.11) unstable; urgency=medium
+
+  * chore: Adjust pkg-config dependency
+
+ -- zhanghongyuan <zhanghongyuan@uniontech.com>  Fri, 17 Oct 2025 08:35:29 +0800
+
+deepin-ocr (6.5.10) unstable; urgency=medium
+
+  * chore: Adjust open source license configuration
+
+ -- zhanghongyuan <zhanghongyuan@uniontech.com>  Thu, 16 Oct 2025 17:48:00 +0800
+
+deepin-ocr (6.5.9) unstable; urgency=medium
+
+  * chore: Add new Lao translation file (#67)
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Wed, 13 Aug 2025 13:58:09 +0800
+
+deepin-ocr (6.5.8) unstable; urgency=medium
+
+  * chore: Add new Lao translation file
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Thu, 07 Aug 2025 17:09:13 +0800
+
+deepin-ocr (6.5.7) unstable; urgency=medium
+
+  * update version to 6.5.7 
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Tue, 01 Jul 2025 19:23:43 +0800
+
+deepin-ocr (6.5.6) unstable; urgency=medium
+
+  * update version to 6.5.6 
+
+ -- Tian ShiLin <tianshilin@uniontech.com>  Mon, 23 Jun 2025 15:06:46 +0800
+
+deepin-ocr (6.5.5) unstable; urgency=medium
+
+  * chore: clean up CMake configuration by removing unnecessary compiler flags
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Fri, 20 Jun 2025 17:45:00 +0800
+
+deepin-ocr (6.5.4) unstable; urgency=medium
+
+  * chore: update CMake configuration for non-sw_64 architectures
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Fri, 20 Jun 2025 16:37:22 +0800
+
+deepin-ocr (6.5.3) unstable; urgency=medium
+
+  * chore: update build dependencies in debian/control
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Thu, 19 Jun 2025 22:17:22 +0800
+
+deepin-ocr (6.5.2) unstable; urgency=medium
+
+  * chore: update build dependencies and CMake configuration
+
+ -- dengzhongyuan <dengzhongyuan@uniontech.com>  Thu, 19 Jun 2025 21:58:59 +0800
+
+deepin-ocr (6.5.1) unstable; urgency=medium
+
+  * fix: Fixed the COR recognition crash
+  * i18n: Updates for project Deepin OCR (#39)
+  * chore: update translations.
+
+ -- renbin <renbin@uniontech.com>  Thu, 17 Apr 2025 10:14:32 +0800
+
+deepin-ocr (6.5.0) unstable; urgency=medium
+
+  * feat: enable Qt6 build and switch to Qt6.8
+
+ -- renbin <renbin@uniontech.com>  Mon, 20 Jan 2025 10:59:07 +0800
+
+deepin-ocr (1.5.1) unstable; urgency=medium
+
+  *remove env kwayland-shell  
+
+ -- Liu zheng <liuzheng@uniontech.com>  Wed, 06 Nov 2024 15:33:24 +0800
+
+deepin-ocr (1.5.0) unstable; urgency=medium
+
+  * adapt treeland 
+
+ -- Liu zheng <liuzheng@uniontech.com>  Tue, 22 Oct 2024 20:32:59 +0800
+
+deepin-ocr (1.1.2) unstable; urgency=medium
+
+  * New version 1.1.2.
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Wed, 16 Aug 2023 11:43:41 +0800
+
+deepin-ocr (1.1.1) unstable; urgency=medium
+
+  * New version 1.1.1.
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Thur, 13 Apr 2023 15:08:32 +0800
+
+deepin-ocr (1.1.0) unstable; urgency=medium
+
+  * Use dtkocr instead of PaddleOCR-NCNN
+  * Add language change
+
+ -- TagBuilder <wangzhengyang@uniontech.com>  Fri, 10 Mar 2023 10:16:55 +0800
+
+deepin-ocr (1.5.2) unstable; urgency=medium
+
+  *Optimized vulkan dependencies 
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Mon, 19 May 2025 15:33:24 +0800
+
+deepin-ocr (1.5.1) unstable; urgency=medium
+
+  *remove env kwayland-shell  
+
+ -- Liu zheng <liuzheng@uniontech.com>  Wed, 06 Nov 2024 15:33:24 +0800
+
+deepin-ocr (1.5.0) unstable; urgency=medium
+
+  * adapt treeland 
+
+ -- Liu zheng <liuzheng@uniontech.com>  Tue, 22 Oct 2024 20:32:59 +0800
+
+deepin-ocr (1.1.2) unstable; urgency=medium
+
+  * New version 1.1.2.
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Wed, 16 Aug 2023 11:43:41 +0800
+
+deepin-ocr (1.1.1) unstable; urgency=medium
+
+  * New version 1.1.1.
+
+ -- xiepengfei <xiepengfei@uniontech.com>  Thur, 13 Apr 2023 15:08:32 +0800
+
+deepin-ocr (1.1.0) unstable; urgency=medium
+
+  * Use dtkocr instead of PaddleOCR-NCNN
+  * Add language change
+
+ -- TagBuilder <wangzhengyang@uniontech.com>  Fri, 10 Mar 2023 10:16:55 +0800
+
+deepin-ocr (1.0) unstable; urgency=medium
+
+  * Pre-release for deepin-ocr 1.0
+
+ -- TagBuilder <hemingyang@uniontech.com>  Fri, 10 May 2021 14:20:26 +0000
