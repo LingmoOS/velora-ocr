@@ -1,4 +1,4 @@
-velora-ocr (6.5.18.lingmo.1) unstable; urgency=medium
+lingmo-ocr (6.5.18.lingmo.1) unstable; urgency=medium
 
   * Lingmo namespace migration.
 
