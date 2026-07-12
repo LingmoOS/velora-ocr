@@ -1,6 +1,6 @@
 package:
   id: org.deepin.ocr
-  name: "deepin-ocr"
+  name: "lingmo-ocr"
   version: 6.5.3.1
   kind: app
   description: |

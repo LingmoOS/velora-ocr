@@ -58,8 +58,8 @@ Files: tests/*
 Copyright: UnionTech Software Technology Co., Ltd.
 License: GPL-3.0-or-later
 
-# com.deepin.Ocr.service
-Files: com.deepin.Ocr.service
+# com.lingmo.Ocr.service
+Files: com.lingmo.Ocr.service
 Copyright: UnionTech Software Technology Co., Ltd.
 License: CC-BY-4.0
 

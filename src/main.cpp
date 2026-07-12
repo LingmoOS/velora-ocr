@@ -61,11 +61,11 @@ int main(int argc, char *argv[])
     OcrApplication instance;
     QDBusConnection dbus = QDBusConnection::sessionBus();
 
-    if (dbus.registerService("com.deepin.Ocr")) {
+    if (dbus.registerService("com.lingmo.Ocr")) {
         qCInfo(dmOcr) << "Registered as primary DBus service";
         // 第一次启动
         // 注册Dbus服务和对象
-        dbus.registerObject("/com/deepin/Ocr", &instance);
+        dbus.registerObject("/com/lingmo/Ocr", &instance);
         // 初始化适配器
         new DbusOcrAdaptor(&instance);
 
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
         // 第二次运行此应用，
         // 调用DBus接口，处理交给第一次调用的进程
         // 本进程退退出
-        OcrInterface *pOcr = new OcrInterface("com.deepin.Ocr", "/com/deepin/Ocr", QDBusConnection::sessionBus(), &instance);
+        OcrInterface *pOcr = new OcrInterface("com.lingmo.Ocr", "/com/lingmo/Ocr", QDBusConnection::sessionBus(), &instance);
         qDebug() << __FUNCTION__ << __LINE__;
         pOcr->openFile(QString(argv[1]));
         delete pOcr;

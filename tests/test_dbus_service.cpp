@@ -19,7 +19,7 @@
 //初始拉起主界面
 TEST(OcrInterface, mainwindow)
 {
-    OcrInterface *pOcr = new OcrInterface("com.deepin.Ocr", "/com/deepin/Ocr", QDBusConnection::sessionBus());
+    OcrInterface *pOcr = new OcrInterface("com.lingmo.Ocr", "/com/lingmo/Ocr", QDBusConnection::sessionBus());
     qDebug() << __FUNCTION__ << __LINE__;
     QString imagePath = QStandardPaths::writableLocation(QStandardPaths::PicturesLocation) + "/Wallpapers/marian-kroell-qElMHWePpok-unsplash.jpg";;
     pOcr->openFile(imagePath);
